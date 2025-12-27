@@ -1,0 +1,16 @@
+[project]
+name = "mcp-add"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "discord-py>=2.6.4",
+    "icalendar>=6.3.1",
+    "mcp[cli]>=1.17.0",
+    "nest-asyncio>=1.6.0",
+    "openai>=2.6.0",
+    "openai-agents>=0.4.1",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+]
