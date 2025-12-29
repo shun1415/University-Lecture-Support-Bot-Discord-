@@ -3,7 +3,9 @@
 
 デモ画面 (Demo)
 例：「3年後期からAIについて学ぶロードマップを作って」といった抽象的な質問に対し、シラバスデータに基づいて回答します。
-<img width="1168" height="486" alt="image" src="https://github.com/user-attachments/assets/5436b64c-1ee5-4b8e-9759-d6bb022e16e3" />
+例：「データベースとは？」のような一般的な質問にも対応。
+<img width="1041" height="393" alt="image" src="https://github.com/user-attachments/assets/92c69b3f-15a4-4763-b190-7da477aaaf07" />
+<img width="1162" height="351" alt="image" src="https://github.com/user-attachments/assets/ad36cd9a-1fbc-42e0-8f2c-7adddf60f177" />
 
 開発のきっかけ (Background)
 「大学のポータルサイトはスマホで見づらく、知りたい情報に即座にアクセスできない」 私自身が感じていたこの不便さを解消するために開発しました。
@@ -45,3 +47,4 @@ AIにただ質問を投げるだけでは一般的な回答しか返ってきま
 
 3. セキュリティと構成管理
 APIキーなどの機密情報はコードにハードコードせず、.env ファイルで管理し python-dotenv で読み込む設計にしました。Gitへの誤プッシュを防ぐため .gitignore の設定も徹底しています。
+
